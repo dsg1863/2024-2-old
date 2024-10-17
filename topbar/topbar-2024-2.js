@@ -1,7 +1,7 @@
-// JavaScript to add a "Voltar para índice" link to the top of every page
+// JavaScript to add a "Voltar para índice" link to every page
 window.onload = function() {
     // Create the link element
-    var topBar = document.createElement('div');
+    var navBar = document.createElement('div');
     var link = document.createElement('a');
     
     // Set the link attributes
@@ -9,12 +9,12 @@ window.onload = function() {
     link.textContent = 'Projetos 2024-2';
     
     // Apply the CSS class
-    topBar.classList.add('top-bar');
+    navBar.classList.add('nav-bar');
     
-    // Append the link to the top bar
-    topBar.appendChild(link);
+    // Append the link to the nav bar
+    navBar.appendChild(link);
     
-    // Add the top bar to the body, at the top of the page
-    document.body.insertBefore(topBar, document.body.firstChild);
+    // Add the nav bar to the body of every page
+    document.body.insertBefore(navBar, document.body.firstChild);
 };
 
