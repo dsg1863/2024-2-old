@@ -93,9 +93,9 @@ img {
 
 img.gifmar {
 	position: absolute;
-	top: 65%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	top: 50%;
+/*	left: 50%;
+	transform: translate(-50%, -50%);*/
 	/*opacity: 0.5;*/
 	width: 100%;
 	z-index: -1;
